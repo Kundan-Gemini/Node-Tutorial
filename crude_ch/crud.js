@@ -1,5 +1,5 @@
 const fs=require("fs");
-const { cursorTo } = require("readline");
+// const { cursorTo } = require("readline");
 
 // Creating a folder using node
 // fs.mkdirSync("CRUD_FOLDER");
