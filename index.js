@@ -13,5 +13,18 @@ const fs = require("fs");
 
 
 // Modifying the read.txt with new contents without deleting the existing contents
-fs.appendFileSync('read.txt'," Here we are apending this line to existing file")
+// fs.appendFileSync('read.txt'," Here we are apending this line to existing file")
+
+
+// For reading the file we use readFileSync() 
+
+const buf_data=fs.readFileSync("read.txt");
+org_data=buf_data.toString();
+console.log(org_data);
+
+
+// fs.readFile() display the data in binary output so to change binary data to human understandabke we use "toString()" method on it
+
+// To rename the file :- fs.renameFileSync("Old file Name", "New File Name")
+
 
