@@ -1,1 +1,1 @@
-hello folks cheking the working of same fs.writeFileSync
+hello folks cheking the working of same fs.writeFileSyncHere we are apending this line to existing file Here we are apending this line to existing file Here we are apending this line to existing file Here we are apending this line to existing file
