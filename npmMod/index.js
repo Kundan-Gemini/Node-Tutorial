@@ -29,3 +29,4 @@ console.log(req ? chalk.green.inverse(req) : chalk.red.inverse(req))
 // For using nodeman we need to install it first :=> npm install -g nodemon
 // And this for 1 time we have to write "nodemon "filename""  
 // nodemon filename :=> will replace node index.js automatically whenever we make change to it
+// to exit from nodemon just click "ctrl + c" 
