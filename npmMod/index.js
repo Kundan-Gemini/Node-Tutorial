@@ -24,3 +24,8 @@ console.log(res ? chalk.green.inverse(res): chalk.red.inverse(res))
 
 const req=validator.isEmail("kunda.181033gmail.com");
 console.log(req ? chalk.green.inverse(req) : chalk.red.inverse(req))
+
+// WE can use "nodeman" to auto compile the file
+// For using nodeman we need to install it first :=> npm install -g nodemon
+// And this for 1 time we have to write "nodemon "filename""  
+// nodemon filename :=> will replace node index.js automatically whenever we make change to it
